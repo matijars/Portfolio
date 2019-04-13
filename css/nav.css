@@ -1,0 +1,68 @@
+/* NAVIGATION */
+
+#navContainer {
+  position: fixed;
+  height: auto;
+  z-index: 10;
+  padding: 5px;
+  width: 100%;
+  background: url(/img/headerBg.jpg) repeat;
+}
+
+.navbar {
+  padding: 0.5rem 0rem;
+}
+
+#navContainer .container {
+  padding: 0px 0px 0px 9px;
+}
+
+.nav-item a {
+  color: #e8e8e8;
+  margin: 0 5px;
+  font-weight: bold;
+  transition: all 0.7s ease;
+  padding: 10px 20px !important;
+}
+
+.nav-item a:hover {
+  color: white;
+  text-shadow: 0.5px 0 0 currentColor;
+}
+
+.active .nav-link {
+  color: #e8e8e8;
+  background-color: #2f2f2f;
+  -webkit-box-shadow: inset 0px 0px 10px 4px rgba(40, 40, 40, 1);
+  -moz-box-shadow: inset 0px 0px 10px 4px rgba(40, 40, 40, 1);
+  box-shadow: inset 0px 0px 10px 4px rgba(40, 40, 40, 1);
+  border-radius: 7px;
+  padding: 10px 20px !important;
+}
+
+.fa-bars {
+  color: #e8e8e8;
+  transform: translate3d(0px, 4px, 0px);
+  font-size: 1.3em;
+}
+
+#navContainer .navbar-toggler {
+  outline: none;
+}
+
+.form-control {
+  color: #2f2f2f;
+  border-radius: 100px !important;
+  -webkit-box-shadow: inset 0px 0px 10px 4px rgba(40, 40, 40, 1);
+  -moz-box-shadow: inset 0px 0px 10px 4px rgba(40, 40, 40, 1);
+  box-shadow: inset 0px 0px 10px 4px rgba(40, 40, 40, 1);
+}
+
+@media (max-width: 991px) {
+  .nav-item a {
+    border: none;
+  }
+  .active .nav-link {
+    border: none;
+  }
+}

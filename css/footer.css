@@ -1,0 +1,43 @@
+/* FOOTER */
+
+.footer {
+  background: url(/img/footerBg.jpg);
+}
+
+@media (max-width: 991px) {
+  .footer {
+    text-align: center;
+  }
+}
+
+.footer .footerBlock {
+  margin: 20px 0px 20px 0px;
+}
+
+.footer img {
+  padding-left: 10px;
+}
+
+.footer p {
+  margin-bottom: 0px;
+}
+
+.footer .footerGray {
+  color: #999999;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer .footerBlock span {
+  color: #fff;
+}
+
+.footer a {
+  color: #999999;
+  font-style: italic;
+}
+
+.footer a:hover {
+  color: #fff;
+  text-decoration-color: #fff;
+}

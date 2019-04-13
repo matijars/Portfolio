@@ -1,0 +1,65 @@
+/* SIDEBAR */
+
+.sidebar {
+  overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    margin-top: 50px;
+  }
+}
+
+.sidebar p {
+  line-height: 1.2;
+}
+
+.sidebarAbout {
+  padding-bottom: 30px;
+}
+
+.sidebarAbout p {
+  margin-top: 10px;
+}
+
+.sidebarCategories {
+  padding-bottom: 30px;
+}
+
+.sidebarCategories p {
+  margin-bottom: 2px;
+}
+
+.sidebarCategories #cGreen a:hover {
+  color: #86a62e;
+}
+
+.sidebarCategories #cRed a:hover {
+  color: #e55151;
+}
+
+.sidebarCategories #cOrange a:hover {
+  color: #fab418;
+}
+
+.sidebarCategories #cBlue a:hover {
+  color: #4d8fcb;
+}
+
+.sidebarCategories #cPink a:hover {
+  color: #d959da;
+}
+
+.sidebar .widgetTwitterTime {
+  color: #999999;
+  padding-bottom: 20px;
+}
+
+.sidebar .sidebarTwitter p {
+  margin-bottom: 5px;
+}
+
+.sidebar a {
+  color: #999999;
+  font-weight: bold;
+}

@@ -1,0 +1,55 @@
+/* WIDGETS */
+
+.widgets {
+  background: url(/img/headerBg.jpg);
+}
+
+.widgets h1 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 0px 0px 10px;
+  margin: 20px 0px 0px 0px;
+}
+
+.widgets p {
+  color: #fff;
+  padding: 10px 0px 0px 10px;
+  line-height: 1.2em;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.widgets .widgetBlock {
+  margin-bottom: 20px;
+}
+
+.widgets .widgetBlock img {
+  padding: 0px 10px;
+}
+
+.widgets .widgetBlock a {
+  color: #999999;
+  font-weight: bold;
+}
+
+.widgets .recent-posts {
+  font-weight: normal;
+}
+
+.widgets .widgetBlock a:hover {
+  text-decoration-color: #fff;
+}
+
+.widgets .widgetTwitterTime {
+  color: #999999;
+  padding-top: 0px;
+}
+
+.widgets .widgetFlickr {
+  padding: 10px 0px 0px 0px;
+}
+
+.widgets .widgetFlickr img {
+  margin-bottom: 20px;
+}

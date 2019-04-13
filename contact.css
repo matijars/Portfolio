@@ -1,0 +1,90 @@
+@import "css/all.css";
+
+/* CONTACT */
+
+.contact {
+  padding: 100px 0px;
+}
+
+.contact h1 {
+  color: #464646;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact .mainContent .firstBlog p {
+  margin-top: 10px;
+}
+
+.contact h2 {
+  color: #464646;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+.contact .mainContent p {
+  padding-bottom: 10px;
+}
+
+.contact .dividers {
+  margin-bottom: 15px;
+}
+
+.contact .mainContent {
+  overflow: hidden;
+}
+
+.contact .contactForm .form-control {
+  box-shadow: none;
+  border-radius: 5px !important;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: inset 1px 1px 8px rgba(204, 204, 204, 0.7);
+  border: none;
+}
+
+.contact .contactForm .form-control::placeholder {
+  color: #cccccc;
+}
+
+.contact .contactForm .personalForm {
+  width: 400px;
+  margin-bottom: 10px;
+  padding: 20px 20px 20px 10px;
+}
+
+@media (max-width: 445px) {
+  .contact .contactForm .personalForm {
+    width: 100%;
+  }
+}
+
+.contact .contactForm #message {
+  height: 200px;
+  width: 600px;
+  resize: none;
+}
+
+@media (max-width: 767px) {
+  .contact .contactForm #message {
+    width: 100%;
+  }
+}
+
+.contact .contactForm #btn {
+  padding: 7px 35px;
+  margin-top: 15px;
+  background-color: #919192;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #bababa;
+  outline: none;
+}
+
+.contact .contactForm #btn:hover {
+  color: #2f2f2f;
+}

@@ -1,0 +1,141 @@
+@import "css/all.css";
+
+/* PORTFOLIO */
+
+.portfolio {
+  padding: 100px 0px;
+  overflow: hidden;
+}
+
+.portfolio h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.portfolio .divider {
+  width: inherit;
+}
+
+.portfolio .rowDivider {
+  width: inherit;
+  margin: 30px 0px;
+}
+
+.portfolio .links {
+  margin: 20px 0px 30px 0px;
+}
+
+.portfolio .links ul {
+  padding-left: 0;
+}
+
+.portfolio .links ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+.portfolio .links ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2f2f2f;
+  padding-right: 15px;
+}
+
+.portfolio .links ul li a:hover {
+  color: #969697;
+}
+
+.portfolio .portfolioContainer .parts img {
+  width: 100%;
+}
+
+.portfolio #portfolio-container {
+  padding-left: 0;
+}
+
+.portfolio .parts h2 {
+  font-size: 18px;
+  margin: 10px 0px 5px 0px;
+}
+
+.portfolio .portfolio-info a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  color: #969697;
+  padding-right: 5px;
+}
+
+.portfolio .portfolio-info a:hover {
+  color: #2f2f2f;
+  text-decoration: underline;
+}
+
+/* ITEM IMAGE AND OVERLAY */
+
+.portfolio .portfolio-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio .portfolio-item img {
+  width: 100%;
+}
+
+.portfolio .portfolio-item figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: ease-in-out 300ms;
+}
+
+.portfolio .portfolio-item:hover figcaption {
+  opacity: 1;
+}
+
+.portfolio figcaption .portfolio-search {
+  position: relative;
+  color: black;
+  font-size: 30px;
+  align-self: center;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(201, 201, 201, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.portfolio figcaption .portfolio-search:hover {
+  color: #bdbdbd;
+}
+
+.portfolio figcaption .portfolio-text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.portfolio figcaption a {
+  color: #bdbdbd;
+  font-size: 15px;
+  text-decoration: none;
+  margin: auto;
+}
+
+.portfolio figcaption a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.scale-anm {
+  transform: scale3d(1, 1, 1);
+}

@@ -1,0 +1,46 @@
+@import "/css/all.css";
+
+/* ARCHIVES*/
+
+.archives {
+  padding: 100px 0px;
+}
+
+.archives h1 {
+  color: #464646;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.archives .mainContent .firstBlog p {
+  margin-top: 10px;
+}
+
+.archives h2 {
+  color: #464646;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+.archives .mainContent p {
+  padding: 0;
+  margin: 0;
+}
+
+.archives .mainContent a {
+  color: #737373;
+}
+
+.archives .mainContent a:hover {
+  color: black;
+}
+
+.archives .dividers {
+  margin-bottom: 15px;
+}
+
+.archives .mainContent {
+  overflow: hidden;
+}

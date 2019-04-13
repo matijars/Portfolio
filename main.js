@@ -5,7 +5,7 @@
     var selectedClass = "";
     var portfolioContent = $("#portfolio-container");
 
-    $(".portfolio-item").click(function() {
+    $(".port-filter").click(function() {
       selectedClass = $(this).attr("data-rel");
 
       portfolioContent.fadeTo(100, 0.1);

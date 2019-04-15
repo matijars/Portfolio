@@ -137,6 +137,10 @@
   text-decoration: none;
 }
 
+.portfolio .img-div {
+  margin-bottom: 25px;
+}
+
 .scale-anm {
   transform: scale3d(1, 1, 1);
 }

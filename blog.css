@@ -25,35 +25,37 @@
   margin-bottom: 15px;
 }
 
-.blog .mainContent {
+.blog-item {
+  margin-bottom: 20px;
+}
+
+.blog .main-content {
   overflow: hidden;
 }
 
-.blog .mainContent .firstBlog img,
-.secondBlog img,
-.thirdBlog img {
+.blog .blog-main-image img {
   width: 100%;
-  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-.blog .mainContent .firstBlog .firstBlogContent {
-  padding: 20px 0px;
+.blog-content {
+  padding: 10px 0px;
 }
 
-.blog .mainContent .firstBlog .firstBlogContent h2 {
+.blog-content h2 {
   color: #464646;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 2px;
 }
 
-.blog .mainContent .firstBlog .firstBlogContent .left p {
+.blog-content .left p {
   color: #bababa;
   font-size: 13px;
   font-weight: bold;
 }
 
-.blog .mainContent .firstBlog .firstBlogContent .left a {
+.blog-content .left a {
   display: inline-block;
   color: #bababa;
   font-size: 13px;
@@ -61,11 +63,7 @@
   padding-bottom: 15px;
 }
 
-.blog .mainContent .firstBlog .firstBlogContent .left a:hover {
+.blog-content .left a:hover {
   color: #2f2f2f;
   text-decoration: underline;
-}
-
-.blog .nextBlog {
-  margin-top: 40px;
 }

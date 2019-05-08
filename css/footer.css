@@ -1,7 +1,7 @@
 /* FOOTER */
 
 .footer {
-  background: url(/img/footerBg.jpg);
+  background: url(../img/footerBg.jpg);
 }
 
 @media (max-width: 991px) {

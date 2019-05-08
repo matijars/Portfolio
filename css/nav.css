@@ -6,7 +6,7 @@
   z-index: 10;
   padding: 5px;
   width: 100%;
-  background: url(/img/headerBg.jpg) repeat;
+  background: url(../img/headerBg.jpg) repeat;
 }
 
 .navbar {
@@ -50,9 +50,9 @@
   outline: none;
 }
 
-.form-control {
+#navbarSupportedContent .form-control {
   color: #2f2f2f;
-  border-radius: 100px !important;
+  border-radius: 100px;
   -webkit-box-shadow: inset 0px 0px 10px 4px rgba(40, 40, 40, 1);
   -moz-box-shadow: inset 0px 0px 10px 4px rgba(40, 40, 40, 1);
   box-shadow: inset 0px 0px 10px 4px rgba(40, 40, 40, 1);

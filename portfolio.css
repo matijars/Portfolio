@@ -47,7 +47,7 @@
   color: #969697;
 }
 
-.portfolio .portfolioContainer .parts img {
+.portfolio #portfolio-container img {
   width: 100%;
 }
 
@@ -55,7 +55,7 @@
   padding-left: 0;
 }
 
-.portfolio .parts h2 {
+.portfolio .portfolio-info h2 {
   font-size: 18px;
   margin: 10px 0px 5px 0px;
 }
